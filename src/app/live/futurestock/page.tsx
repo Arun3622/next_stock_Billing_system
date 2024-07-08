@@ -2,7 +2,6 @@
 import { useEffect, useState, useRef } from "react";
 import { Grid, Typography, TextField, Button, Box } from "@mui/material";
 import protobuf from "protobufjs";
-
 interface StockData {
   id: string;
   price: number;
